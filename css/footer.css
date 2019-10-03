@@ -1,0 +1,53 @@
+a.lista-contatos{
+color: #fff !important;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+}
+
+ul.list-unstyled > li{
+
+	margin-top: 4% !important;
+}
+
+.contact-info{
+
+	font-weight: bold;
+}
+
+.footer-copyright{
+
+	color: #fff;
+	margin-top: 5%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.position{
+
+	margin-left: -10%;
+}
+
+@media only screen and (max-width: 601px){
+
+.position{
+
+	margin-left: 0%;
+}
+
+}
+
+@media only screen and (max-width: 993px){
+
+	.position{
+
+		margin-left: 0%;
+	}
+
+}
+
+@media only screen and (min-width: 994px) and (max-width: 1024px){
+
+	a.lista-contatos{
+
+		font-size: 10pt;
+	}
+}

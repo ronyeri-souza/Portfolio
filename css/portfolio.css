@@ -1,0 +1,571 @@
+html, body{
+
+	height: 100%;
+	font-family: 'Roboto Slab', Serif;
+	background-image: url("../img/bg-img.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+ 
+}
+
+.nav-link{
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.fixed-top{
+
+	background: transparent !important;
+	transition: background 0,5s linear !important;
+}
+
+.nav-item{
+
+	margin-top: 3% !important;
+	
+}
+
+.navbar-brand{
+
+	margin-left: 5%;
+	margin-top: 1.7% !important;
+	padding-right: 14%;
+	font-size: 15pt;
+}
+
+.tit-pag-inicial{
+
+	text-align: center;
+	color: #fff;
+	margin-top: 20%;
+	font-size: 60pt;
+}
+
+.subtit-pag-inicial{
+
+	text-align: center;
+	color: #fff;
+	font-style: italic;
+	font-size: 15pt;
+}
+
+.btn-primary{
+
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+	background-color: #1E90FF;
+	border-color: #1E90FF;
+	font-size: 11pt;
+}
+
+.btn-primary:hover{
+
+	background-color: #fff;
+	color: #1E90FF;
+	border-color: #fff;
+	transition: 1s;
+}
+
+.btn-light{
+
+	margin-left: 1%;
+	color: #1E90FF;
+}
+
+.btns{
+
+	margin-top: 3%;
+}
+
+
+.nav-link:hover{
+
+	border-bottom: 0.3px solid #fff;
+}
+
+.nav-link{
+
+	font-size: 11pt;
+}
+
+
+#apresentar::after {
+  font-size: 20pt;
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+  color: white;
+}
+
+@keyframes pisca {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.bloco{
+
+	min-height: 100%;
+	padding-top: 94px;
+}
+
+.sobre{
+
+	background-image: url(../img/textura1.png);
+}
+
+
+.tit-sobre{
+
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+nav {
+  color: #fff;
+  background-color: #ee6e73;
+  width: 100%;
+  height: 94px;
+  line-height: 56px;
+}
+
+nav.nav-extended .nav-wrapper{
+
+	min-height: 94px;
+	height: auto;
+}
+
+.navbar-fixed {
+  position: absolute;
+  height: 94px;
+  z-index: 997;
+}
+
+
+.nav-color{ 
+
+	background-color: rgba(0,0,0,0.7) !important;
+	transition: background 1s linear !important;
+
+}
+
+
+.nav-conf{
+
+	min-height: 94px;
+	height: auto;
+}
+
+
+.sobre{
+
+	margin-top: 10%;
+}
+
+.sobre h2::after{
+
+	content: '';
+	display: block;
+	width: 100%;
+	border-top: 1px solid #1E90FF;
+	
+	margin: 15px auto;
+
+}
+
+/* CONFIGURAÇÕES DE IMAGEM DO DEV*/
+
+.img-dev{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* POSIÇÃO DA IMAGEM  + CONFIGURAÇÕES DO SOBRE*/
+
+.img-position{
+
+	margin-top: 5%;
+
+}
+
+.nome-dev{
+
+	text-align: center;
+
+}
+
+.nome-dev-position{
+
+	margin-top: 1.5%;
+}
+
+h3 > span{
+
+	border-bottom: 1px solid #696969;
+}
+
+.bio-dev-position{
+
+	margin-top: -1%;
+}
+
+.jumbotron{
+
+	background-color: transparent !important; 
+}
+
+.bio-dev{
+
+	text-align: justify;
+	line-height: 1.8rem;
+	font-size: 12pt;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bio-dev-p{
+
+	margin-top: 1%;
+
+}
+
+.link-competencias:hover{
+
+	text-decoration: none;
+}
+
+.btn-ctt-position{
+
+	margin-top: -7%;
+}
+
+
+
+
+div.btn-ctt-position > a.btn-primary:hover{
+
+	background-color: #3c9eff !important;
+	color: #fff !important;
+	border-color: #3c9eff !important;
+	transition: 1s;
+}
+
+section.sobre > div.container{
+
+	margin-top: 3% !important;
+
+}
+
+/* COMPETÊNCIAS */
+
+
+.competencias{
+
+	background: url(../img/textura2.png);
+	margin-bottom: 10%;
+}
+
+.tit-competencias{
+
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 8%;
+}
+
+.competencias h2::after{
+
+	content: '';
+	display: block;
+	width: 100%;
+	border-top: 1px solid #fff;
+	
+	margin: 15px auto;
+
+}
+
+
+.comp-dev{
+
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+
+.competencias-img img{
+
+	max-width: 150px;
+	max-height: 100px;
+	width: auto;
+	height: auto;
+	margin-left: 2%;
+}
+
+.competencias-img{
+
+	margin-top: -10%;
+}
+
+
+
+#github{
+
+	margin-left: 20%;
+}
+
+#bootstrap{
+
+	margin-left: 3%;
+}
+
+#js{
+
+	margin-left: 5%;
+}
+
+#java{
+
+	margin-left: 5%;
+}
+
+#html{
+
+	margin-left: 15%;
+}
+
+#php{
+
+	margin-left: 6%;
+}
+
+#mysql{
+
+	margin-left: 5%;
+}
+
+#spring{
+
+	margin-left: 5%;
+}
+
+.l-2{
+
+	margin-top: 5%;
+}
+ 
+
+
+/* ATIVIDADES*/
+
+.atividades{
+
+	background: url("../img/textura1.png");
+	margin-top: -10%;
+}
+
+
+.tit-atividades{
+
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 5%;
+}
+
+.atividades h2::after{
+
+	content: '';
+	display: block;
+	width: 100%;
+	border-top: 1px solid #1E90FF;
+	
+	margin: 15px auto;
+
+}
+
+.monitoria{
+
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #696969;
+
+}
+
+.paragrafo-monitoria{
+
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 5%;
+	text-align: justify;
+}
+
+.paragrafo-monitoria-2{
+
+	font-family: 'Montserrat', sans-serif;
+	
+	text-align: justify;
+}
+
+.bolsista{
+
+	margin-top: 5%;
+}
+
+/* RODAPÉ */
+
+
+.footer-title{
+
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 5%;
+}
+
+.contact-info{
+
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+}
+
+ /* RESPONSIVIDADE */
+}
+
+
+@media only screen and (max-width: 601px){
+
+	.navbar{ 
+
+		background-color: rgba(0,0,0,7) !important; 
+		
+	}
+
+
+	.nav-link{
+
+		margin-left: 2%;
+	}
+
+
+	#github{
+
+		margin-left: -3%;
+	}
+
+	#bootstrap{
+
+		margin-left: -8%;
+	}
+
+	#js{
+
+		margin-left: 1%;
+
+	}
+
+	#java{
+
+		margin-left: 1%;
+	}
+
+	#html{
+
+		margin-top: 2%;
+		margin-left: 8%;
+	}
+
+	#php{
+
+		margin-top: 3%;
+		margin-left: 12%;
+	}
+
+	#mysql{
+
+		margin-top: 5%;
+		margin-left: 8%;
+	}
+
+	#spring{
+
+		margin-top: 6%;
+		margin-left: 12%;
+	}
+
+}
+
+@media only screen and (max-width: 993px){
+
+	.navbar{
+
+		background-color: rgba(0,0,0,7) !important;
+	}
+
+	.nav-link{
+
+		margin-left: 2%;
+	}
+
+
+	#github{
+
+		margin-left: 1%;
+	}
+
+	#bootstrap{
+
+		margin-left: 2%;
+	}
+
+	#js{
+
+		margin-left: 6%;
+	}
+
+	#java{
+
+		margin-top: 4%;
+		margin-left: 30%;
+	}
+
+	#html{
+
+		margin-top: 4%;
+		margin-left: 7%;
+	}
+
+	#php{
+
+		margin-left: 15%;
+		margin-top: 6%;
+	}
+
+	#mysql{
+
+		margin-top: 8%;
+		margin-left: 7%;
+	}
+
+	#spring{
+
+		margin-top: 8%;
+		margin-left: 15%;
+	}
+
+
+}
+
